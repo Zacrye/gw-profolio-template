@@ -1,0 +1,247 @@
+/*Profolio Template Styles*/
+/*Global Styles*/
+body, html{
+  margin: 0;
+  background-color: #BF9F73;
+  text-shadow: #000 2.5px 2px;
+  font-family: 'Noto Sans', sans-serif;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+h1, h2, h3{
+  margin: 0;
+}
+
+/*Header Styles*/
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #9C7243;
+}
+
+.logo{
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.logo h1{
+  text-align: center;
+  padding: 20px 0px;
+  color: #f2f2f2;
+}
+
+.menu{
+  color: #f2f2f2;
+  height: 100%;
+  width: 30%;
+  float: right;
+  /*font-family: Calligraffitti*/
+}
+
+.menu ul{
+  position: relative;
+  top: 35px;
+}
+
+.menu li{
+  display: inline-block;
+  /*margin-top: 5%;*/
+  padding: 0px 10px;
+}
+
+/*banner styles start here*/
+#banner{
+  height: 300px;
+  width: 100%;
+  background: url("../img/wheat-field-3-ompt.jpg");
+  background-size: cover;
+  /*background-position: ;*/
+  background-size: 100%;
+  background-origin: inherit;
+  background-attachment: fixed;
+  background-color: #b29e63;
+}
+#banner h1{
+  text-align: center;
+  font-style: italic;
+  padding-top: 85px;
+  font-size: 3em;
+  color: #f2f2f2;
+}
+
+#skills{
+  height: 500px;
+  width: 100%;
+  color: #f2f2f2;
+  font-size: 1.25em;
+  padding-top: 45px;
+}
+
+.skills-container{
+  height: 75%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills article{
+  width: 25%;
+  height: 100%;
+  background-color: #9C7243;
+  border-radius: 5px;
+  float: left;
+  margin: 0 40px;
+  padding: 15px 20px;
+}
+
+#skills article h1{
+  text-align: center;
+}
+
+/*about styles*/
+#about{
+  height: 400px;
+  width: 100%;
+  padding: 90px 0px;
+  color: #f2f2f2;
+  /*background-color: blue;*/
+  display: inline-block;
+}
+
+.img-box{
+  height: 100%;
+  width: 25%;
+  float: left;
+  /*background-color: green;*/
+}
+
+.img-container{
+  height: 300px;
+  width: 300px;
+  margin-left: 75px;
+  margin-top: 30px;
+  /*background-color: black;*/
+}
+
+#about img{
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border-color: #9c7243;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.about-info{
+  height: 100%;
+  width: 75%;
+  float: left;
+  /*background-color: yellow;*/
+}
+
+.about-content{
+  padding: 1%;
+  height: 350px;
+  width: 90%;
+  background-color: #9C7243;
+  border-radius: 5px;
+}
+.about-content h1{
+  text-align: center;
+}
+.about-content p{
+  padding: 4px 0px;
+  text-align: justify;
+}
+
+#contact{
+  width: 100%;
+  height: 80%;
+  padding: 25px 0;
+  display: inline-block;
+  /*background-color: #9C7243;*/
+  background: url("../img/farm-1-sat.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+#contact h1{
+  text-align: center;
+}
+
+.form-box{
+  height: 300px;
+  width: 500px;
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+  margin: 0 auto;
+}
+
+#contact input{
+  height: 40px;
+  width: 99%;
+  margin: 10px 0;
+}
+
+#contact textarea{
+  margin: 10px 0;
+  width: 99%;
+  height: 125px;
+}
+
+#contact button{
+  height: 40px;
+  width: 125px;
+  background-color: white;
+  font-size: 1em;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+#contact button:hover{
+  background-color: #f2f2f2;
+}
+
+/*footer styles*/
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: #9c7243;
+  clear: both;
+  text-align: center;
+}
+
+.copyright p {
+  margin: 0;
+  text-align: center;
+  padding: 30px;
+}
+
+.sm-icons{
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.sm-icons i{
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #BF9F73;
+  margin: 0 auto;
+}
+
+/*#banner img{
+  height: 375px;
+  width: 100%;
+}*/
